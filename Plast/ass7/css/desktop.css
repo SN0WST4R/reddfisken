@@ -155,14 +155,6 @@ h2 {
   padding-left: 13.5em;
 }
 
-.text4 {
-  padding-left: 23em;
-  margin-right: 12em;
-  font-size: 20px;
-  padding-top: 9.5em;
-  text-align: right;
-}
-
 .ruler {
   position: absolute;
   height: 9em;
@@ -172,6 +164,15 @@ h2 {
   padding-top: 11em;
   padding-bottom: 10em;
   padding-left: 37em;
+}
+
+.text4 {
+  position: absolute;
+  font-weight: 1000;
+  font-size: 68px;
+  padding-top: 69em;
+  padding-left: 5em;
+  width: 1000px;
 }
 
 .text5 {
@@ -185,13 +186,14 @@ footer {
   color: white;
   font-family: "Comfortaa", sans-serif;
   position: absolute;
-  top: 192em;
+  top: 692em;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   width: 70px;
   padding-bottom: 3%;
+  padding-left: 4em;
 }
 
 .container5 {
@@ -388,6 +390,16 @@ html {
 #down {
   margin-top: 558%;
   padding-bottom: 25%;
+}
+
+#downg {
+  margin-top: 18400%;
+  padding-bottom: 25%;
+}
+
+iframe {
+  margin-left: 12em;
+  margin-top: 500em;
 }
 
 }
