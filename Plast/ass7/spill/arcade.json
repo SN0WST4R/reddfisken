@@ -1,0 +1,30 @@
+{
+	"name": "GAME1",
+	"version": "2.0.0.",
+	"description": "",
+	"id": "",
+	"unique-id": "bkz7u75hs4e",
+	"viewport-width": 600,
+	"viewport-height": 500,
+	"author": "",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r336",
+	"ife": true,
+	"used-plugins": [
+		"TiledBg",
+		"Keyboard",
+		"Text",
+		"Audio",
+		"Sprite",
+		"Mouse"
+	],
+	"used-behaviors": [
+		"Timer",
+		"Flash",
+		"Platform",
+		"Sin"
+	]
+}
