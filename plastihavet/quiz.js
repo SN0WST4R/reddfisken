@@ -204,7 +204,7 @@ const questions = [
         question: "Hva kan regjeringer gjøre for å redusere utslippene av mikroplast?",
         optionA: "Ikke gjøre noe",
         optionB: "Oppfordre til økt bruk av mikroplast",
-        optionC: "Begrense bruk av mikroplast i ulike produkt",
+        optionC: "Begrense bruk av mikroplast i produkter",
         optionD: "Fjerne restriksjoner på bruk av mikroplast",
         correctOption: "optionC"
     },
