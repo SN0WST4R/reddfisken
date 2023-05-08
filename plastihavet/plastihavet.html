@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <link id="stylesheet" rel="stylesheet" href="css/desktop.css">
+    <link id="stylesheetm" rel="stylesheet" href="css/mobile.css">
+    <link id="stylesheet" rel="stylesheet" href="css/quiz.css">
+    <link id="stylesheet" rel="stylesheet" href="css/quizmobile.css">
+    <script src="quiz.js"></script>
+    <title>PLAST I HAVET</title>
+    <link rel="icon" type="image/x-icon" href="pictures/wave.png">
+  </head>
+
+  <body onload="NextQuestion(0)">
+    <div class="square"></div>
+    <header>
+      <nav>
+        <a><img alt="headerlogo" id="headerlogo" src="pictures/wave.png"></a>
+        <a href="plastihavet.html"><img alt="plastsvart1" id="plastsvart1" src="pictures/plastsvart1.png"></a>
+        <ul class="menu-home">
+          <li><a href="#down">Hva er mikroplast?</a>
+            <div id="down"></div>
+          </li>
+          <li><a href="#down1">Hvilke produkter inneholder mikroplast?</a>
+            <div id="down1"></div>
+          </li>
+         <li><a href="#down2">Quiz</a>
+          <div id="down2"></div>
+         </li>
+         <li><a href="#down3">Spill</a>
+          <div id="down3"></div>
+         </li>
+         <li><a href="#down4">Spre ordet!</a>
+           <div id="down4"></div>
+         </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <div class="container">
+        <h1>PLAST I HAVET</h1>
+        <h2>konsekvenser for klimaet</h2>
+      </div>
+      <a href="scroll:;" class="scroll-down arrows">
+      <span></span>
+      </a>
+      <a href="scroll:;" class="scroll-down arrow">
+      <span></span>
+      </a>
+      <div class="container2">
+      <div data-aos="zoom-in">
+        <p class="text1">
+        Hva er mikroplast?
+        </p>
+      </div>
+      <div data-aos="fade-up">
+        <video class="film1" alt="film1" src="pictures/film1.mov" autoplay loop muted playsinline></video>
+        <p class="text2">Mikroplast er en type plast som består av små partikler som er mindre enn 5 millimeter i størrelse. Disse partiklene kan dannes når større
+          plastprodukter brytes ned over tid eller når de legges til kosmetikk og kroppsvask som slipemidler eller bindemidler. &nbsp; I tillegg kan syntetiske tekstiler 
+          frigjøre mikroplast under vasking, og dette kan føre til alvorlige miljøproblemer. Mikroplast kan skade dyrelivet, spesielt fisk, sjøpattedyr og fugler, 
+          og det kan også føre til helseproblemer hos mennesker. Det er derfor viktig å ta tiltak for å redusere mengden av mikroplast
+          som slippes ut i miljøet. Dette kan inkludere å øke bevisstheten rundt bruken av mikroplast og fremme alternative materialer.
+          Sammen kan vi arbeide for å beskytte våre økosystemer og vår helse ved å ta ansvar for våre handlinger og valg.
+        </p>
+        <video class="film2" alt="film2" src="pictures/film2.mov" autoplay loop muted playsinline></video>
+        <p class="text21">Mikroplast er et økende miljøproblem som utgjør en stor trussel mot dyre- og planteliv i havet. Disse små plastpartiklene kan tas opp av organismer
+           som fisk og skilpadder og skade eller til og med drepe dem. I tillegg kan mikroplast være skadelig for menneskers helse, da det kan samle seg opp i kroppen over tid.
+            Kjemikalier som er tilsatt i plasten kan også ha negative helseeffekter. Dessverre er det vanskelig å fjerne mikroplast fra miljøet, da partiklene er så små og kan 
+            spres over store områder. Dette gjør det enda viktigere å ta ansvar for vår egen bruk av plast og redusere mengden av mikroplast som slippes ut i miljøet. Vi kan også
+            jobbe for å fremme alternative materialer og endre produksjonsmetoder for å redusere plastforurensning og beskytte både dyre- og planteliv og vår egen helse.
+        </p>
+      </div>
+
+      <div data-aos="zoom-in">
+        <p class="text3">
+        Hvilke produkter inneholder mikroplast?
+        </p>
+      </div>
+
+      <div data-aos="fade-up" style="width: 95%">
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="pictures/img1.jpg" style="width:100%">
+          <div class="text">Tannkrem</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="pictures/img2.jpg" style="width:100%">
+          <div class="text">Syntetiske tekstiler</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="pictures/img3.jpg" style="width:100%">
+          <div class="text">Bildekk</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="pictures/img4.jpg" style="width:100%">
+          <div class="text">Maling</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="pictures/img5.jpg" style="width:100%">
+          <div class="text">Husholdningsavfall</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div class="dots">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); 
+        }
+        </script>
+
+        <p class="text31">I tillegg til tannkrem er kosmetiske og hudpleieprodukter som pudder, skrubber, badeskum, solkrem og deodoranter en stor utslippskilde til små plastpartikler. 
+          <br></br>
+          Syntetiske tekstiler er en gruppe tekstiler som består av syntetiske fibre. De fire vanligste syntetiske fibrene er rayon, nylon, polyester og akryl. Disse blir brukt til å
+          lage blant annet klær, tau, fiskegarn og setebelter. I motsetning til naturfibre som kan bestå av blant annet silke, bomull, lin eller ull, er syntetiske fibre en kilde for
+          forrurensning av mikroplast. 
+          <br></br>
+          De største kildene til utslipp av mikroplast er bildekk, biltrafikk og kunstgressbaner. I Norge dannes det rundt 8000 tonn mikroplast hvert år, og halvparten av dette havner 
+          i havet. 2250 tonn av dette kommer fra slitasje av bildekk, ifølge Miljødirektoratet.
+          <br></br>
+          Nyere forskning viser at maling er den største kilden til utslipp av mirkoplast. Hele 58% av all mikroplast som havner i verdens hav
+          kommer fra partikler av maling. I tillegg til tungmetallutslipp, slipper hver enkelt oljeplatfrom ut 1100 kilo med mikroplast som stammer fra maling hvert år.
+          <br></br>
+          Plast fra husholdningsavfall bidrar også til mikroplastutslipp. Når større plastprodukter brytes ned av sollys, vær og vind, ender de resterende partiklene
+          ofte opp i havet. Plast tar flere hundre år å brytes ned i naturen, og den som havner i havet brytes ned enda langsommere enn den på land. 
+        </p>
+      
+      <div data-aos="zoom-in">
+        <p class="text7">
+        Quiz
+        </p>
+        </div>
+
+            <div class="modal-container" id="score-modal">
+    
+                <div class="modal-content-container">
+    
+                    <h3>Gratulerer, quiz gjennomført.</h3>
+    
+                    <div class="grade-details">
+                        <p>Forsøk: 10</p>
+                        <p>Feile svar: <span id="wrong-answers"></span></p>
+                        <p>Riktige svar: <span id="right-answers"></span></p>
+                        <p>Karakter: <span id="grade-percentage"></span>%</p>
+                        <p ><span id="remarks"></span></p>
+                    </div>
+    
+                    <div class="modal-button-container">
+                        <button onclick="closeScoreModal()">Fortsett</button>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div data-aos="fade-up" class="game-quiz-container">
+    
+                <div class="game-details-container">
+                    <h3>Poeng: <span id="player-score"></span> / 10</h3>
+                    <h3>Spørsmål: <span id="question-number"></span> / 10</h3>
+                </div>
+    
+                <div class="game-question-container">
+                    <h3 id="display-question"></h3>
+                </div>
+    
+                <div class="game-options-container">
+    
+                   <div class="modal-container">
+    
+    
+                   </div>
+    
+                    <span>
+                        <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                        <label for="option-one" class="option" id="option-one-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                        <label for="option-two" class="option" id="option-two-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                        <label for="option-three" class="option" id="option-three-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                        <label for="option-four" class="option" id="option-four-label"></label>
+                    </span>
+    
+    
+                </div>
+    
+                <div class="next-button-container">
+                    <button onclick="handleNextQuestion()">Neste spørsmål</button>
+                </div>
+    
+            </div>
+
+
+      <div data-aos="zoom-in">
+        <p class="texta">
+        Spill
+        </p>
+      </div>
+      <div data-aos="fade-up">
+        <p class="textb">
+        I dette spillet spiller du som en klovnefisk som må unngå innkommende mikroplastpartikler. Du har 3 liv. Lykke til!
+        </p>
+      </div>
+      <div data-aos="fade-up">
+          <iframe src="../plastihavet/spill/index.html" width="600" height="500" scrolling="no" noresize="noresize"></iframe>
+      </div>
+
+      <div data-aos="zoom-in">
+        <p class="textc">
+        Spre ordet!
+        </p>
+      </div>
+      <div data-aos="fade-up">
+          <p class="textd">
+          Vi har laget tre plakater som du kan laste ned og skrive ut. Del dem ut, heng dem opp, og spre det viktige budskapet.
+          </p>
+      </div>
+
+      <div>
+        <a data-aos="fade-up" href="pdf/plakat1.pdf" target="_blank"><img alt="plakat1" id="plakat1" src="pictures/plakat1.png"></a>
+        <a data-aos="fade-up" href="pdf/plakat2.pdf" target="_blank"><img alt="plakat2" id="plakat2" src="pictures/plakat2.png"></a>
+        <a data-aos="fade-up" href="pdf/plakat3.pdf" target="_blank"><img alt="plakat3" id="plakat3" src="pictures/plakat3.png"></a>
+      </div>
+
+    </main>
+    <footer>
+      <div data-aos="fade-right"
+       data-aos-anchor-placement="center-bottom"
+       data-aos-offset="0">
+        <p>© 2023 Gruppe 8</p>
+      </div>
+    </footer>
+    <div class="navbar">
+      <div data-aos="fade-down"
+       data-aos-anchor-placement="top-top" 
+       class="square2"></div>
+        <div class="container5 nav-container">
+            <input class="checkbox" type="checkbox">
+            <div data-aos="fade-down" data-aos-anchor-placement="top-top" class="hamburger-lines">
+              <span  class="line line1"></span>
+              <span  class="line line2"></span>
+              <span  class="line line3"></span>
+         </div> 
+          <ul class="menu-items">
+            <li><a href="plastihavet.html">Hjem</a></li>
+            <li><a href="#down">Hva er mikroplast?</a>
+            <li><a href="#down1">Hvilke produkter inneholder mikroplast?</a></li>
+            <li><a href="#down2">Quiz</a></li>
+            <li><a href="#down3">Spill</a></li>
+            <li><a href="#down4">Spre ordet!</a></li>
+          </ul>
+       </div>
+   </div>
+  </body>        
+</html>
